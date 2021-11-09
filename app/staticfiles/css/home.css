@@ -41,7 +41,7 @@
     font-size: 2rem;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #7ee1ff;
+    color: #9b49c1;
     margin-bottom: 10px;
 }
 
@@ -51,6 +51,7 @@
     padding-bottom: 15px;
     padding-left: 0px;
     padding-right: 10px;
+
 
     font-size: 90%;
     font-weight: bold;
@@ -213,7 +214,7 @@
 }
 
 .projects .projects-container .project .info a:hover h4 {
-    color: #7ee1ff;
+    color: #9b49c1;
 }
 
 .projects .projects-container .project .info a h4 {
