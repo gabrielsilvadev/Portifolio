@@ -44,11 +44,10 @@
     color: #7ee1ff;
     margin-bottom: 10px;
 }
-
 .content .welcome .content-welcome p {
     width: 120%;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
     padding-left: 0px;
     padding-right: 10px;
 
@@ -58,12 +57,12 @@
     text-justify: inter-word;
     
     color: white;
-    background-color: #003140;
+    background-color: #1b1b1f;
 
     z-index: 2;
     position: relative;
 
-    border-radius: 10px;
+    border-radius: 9px;
 }
 
 
@@ -86,17 +85,17 @@
 }
 
 .content .welcome .welcome-buttons .btn:hover {
-    box-shadow: 0rem 0rem 2rem #7ee1ff7c;
+    box-shadow: 0rem 0rem 2rem #ff6781;
 }
 
 .content .welcome .welcome-buttons .btn.btn-success {
-    border: 2px solid #529cb3;
+    border: 2px solid #9b49c1;
     background-color: rgba(255, 255, 255, 0.027);
 }
 
 .content .welcome .welcome-buttons .btn.btn-success:hover {
-    box-shadow: 0rem 0rem 2rem #76dbfa63;
-    border: 1px solid #529cb3;
+    box-shadow: 0rem 0rem 2rem #ff6781;
+    border: 1px solid #9b49c1;
     background-color: #76dbfa2a;
 }
 
@@ -155,7 +154,7 @@
     margin-top: 10px;
 
     border-radius: 10px;
-    background-color: #00b2df;
+    background-color: #9b49c1;
 }
 
 .projects .projects-container {
@@ -213,7 +212,7 @@
 }
 
 .projects .projects-container .project .info a:hover h4 {
-    color: #7ee1ff;
+    color:#ff6781;
 }
 
 .projects .projects-container .project .info a h4 {
@@ -246,8 +245,8 @@
 }
 
 .projects .projects-container .project .info .tecs .tec-info:hover {
-    border: 1px solid #7ee1ff;
-    color: #7ee1ff;
+    border: 1px solid #7159c1;
+    color: #ff6781;
 }
 
 .projects .projects-container .project .info p {
@@ -274,7 +273,7 @@
     padding-top: 80px;
     padding-bottom: 40px;
 
-    background-color: #007a99;
+    background-color: #29292E;
 
     width: 60%;
 }
@@ -306,7 +305,7 @@
     margin-top: 10px;
 
     border-radius: 10px;
-    background-color: #003140;
+    background-color: #7159c1;
 }
 
 .skills .skill-content {
@@ -342,7 +341,7 @@
 /* end of skilss section */
 /* start of about-me section */
 .about-me {
-    background-color: #005d74;
+    background-color: #202024;
 
     display: flex;
     align-items: center;
@@ -386,10 +385,11 @@
 .about-me .about-me-info .img-mobile img {
     display: block;
     width: 70%;
+    border-radius: 30%;
 }
 
 .about-me .about-me-info {
-    background-color: #003140;
+    background-color: #7159c1;
     color: white;
 
     padding: 20px;

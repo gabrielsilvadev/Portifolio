@@ -10,13 +10,13 @@
     <section id="welcome" class="welcome base-content">
         <div class="content-welcome">
             <h4> Olá mundo! </h4>
-            <h2> José Pedro </h2>
+            <h2> João Gabriel </h2>
             <h3> {{ profile.funcao }} </h3>
             <p class="descricao"> 
                 {{ profile.descricao_welcome }}
             </p>
             <div class="welcome-buttons">
-                <form method="post" action="mailto:pedroosd28@gmail.com" >
+                <form method="post" action="mailto:gabrielsilva41354@gmail.com" >
                     <button type="submit" class="btn btn-success">Mail-me</button>
                     <a class="btn" href="#projects">Meu trabalho</a>
                 </form>
@@ -79,7 +79,7 @@
             <figure class="img-mobile">
                 <img src="{% static 'images/me2.jpg' %}" alt="">
             </figure>
-            <h2> José Pedro </h2>
+            <h2> João Gabriel </h2>
             <span> 💼 Backend Developer </span>
             <span> 📍 {{ profile.localizacao }} </span>
             <div class="me-info">
@@ -95,25 +95,25 @@
                 </ul>
             </div>
             <ul class="social-media">
-                <li><a href="https://github.com/oopaze/">
+                <li><a href="https://github.com/gabrielsilvadev">
                     <img src="{% static 'images/github.png' %}" alt="">
                 </a></li>
-                <li><a href="https://twitter.com/oopaze">
+                <li><a href="">
                     <img src="{% static 'images/twitter.png' %}" alt="">
                 </a></li>
-                <li><a href="https://www.linkedin.com/in/oopaze">
+                <li><a href="https://www.linkedin.com/in/gabriel-silva-48052916b/">
                     <img src="{% static 'images/linkedin.png' %}" alt="">
                 </a></li>
+                <li><a href="https://www.instagram.com/gabriel.silva.mllo/">
+                    <img src="{% static 'images/insta.png' %}" alt="">
+                </a></li>
                 <li>
-                    <form method="post" action="mailto:pedroosd28@gmail.com" >
+                    <form method="post" action="mailto:gabrielsilva41354@gmail.com" >
                         <button type="submit" href="">
                             <img src="{% static 'images/gmail.png' %}" alt="">
                         </button>
                     </form>
                 </li>
-                <li><a href="{% url 'resume_download' %}">
-                    <img src="{% static 'images/cloud-computing.png' %}" alt="">
-                </a></li>
             </ul>
         </div>
     </section>
